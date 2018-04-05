@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0039)http://www.c.conclase.net/edd/?cap=002d -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="description" content="Cursos de C++, POO y programación Windows, API32, CSS, con lista de correo asociada.">
+<meta name="keywords" content="C, C++, C/C++, curso, programación, POO, lista, correo, windows, tutorial, programas, API32, CSS">
+<title>Estructuras de datos - Pilas</title>
+
+<link rel="StyleSheet" href="./Estructuras de datos - Pilas_files/conclase.css.php" title="Estilo con Clase" media="Screen" type="text/css">
+<link rel="stylesheet" href="./Estructuras de datos - Pilas_files/barras.css.php" title="Estilo con Clase" media="screen" type="text/css">
+<link rel="alternate" type="application/atom+xml" title="C con Clase RSS" href="http://www.c.conclase.net/include/conclase_rss.php">
+<link rel="shortcut icon" href="http://www.c.conclase.net/include/favicon.ico">
+</head>
+
+<body>
+   <div id="headerHolder">
+	<div id="header">
+<div id="subtitulo">&nbsp;C++ con Clase&nbsp;</div>
+<div id="sombra">Estructuras de datos</div>
+<div id="titulo">Estructuras de datos</div>
+<div id="estilo">
+<form action="http://www.c.conclase.net/edd/?ext=estilo&cap=002d" method="post">
+<label for="estilo">Estilo:</label>
+<select name="nombre">
+<option value="1">Esmeralda</option>
+<option value="2" selected="selected">Normal</option>
+<option value="3">estilo3</option>
+<option value="4">estilo4</option>
+<option value="5">estilo5</option>
+<option value="6">estilo6</option>
+<option value="7">estilo7</option>
+<option value="8">estilo8</option>
+<option value="9">estilo9</option>
+<option value="10">estilo10</option>
+<option value="13">B/W</option>
+<option value="14">rgb</option>
+<option value="15">Estilo 11</option>
+</select>
+<input type="submit" name="Submit" value="Activar">
+</form>
+</div>
+<div id="visitas"><img src="./Estructuras de datos - Pilas_files/contador.php" alt="0014441414"><br>Visitas desde 2000-09-09
+<br><a href="http://www.c.conclase.net/?id=usrs"><img src="./Estructuras de datos - Pilas_files/contador(1).php" alt="0188" border="0"></a><br>Usuarios en línea</div>
+		<div id="navigation">
+			<ul id="tabs">
+				<li id="tab01" class="taboff"><a href="http://conclase.net/" title="Página de entrada">Con Clase</a></li>
+				<li id="tab02" class="tabon"><a href="http://c.conclase.net/" title="C ++ con Clase">C++</a></li>
+				<li id="tab03" class="taboff"><a href="http://winapi.conclase.net/" title="Win API 32 con Clase">Win API 32</a></li>
+				<li id="tab04" class="taboff"><a href="http://html.conclase.net/" title="HTML y CSS con Clase">HTML y CSS</a></li>
+				<li id="tab05" class="taboff"><a href="http://graficos.conclase.net/" title="Gráficos con Clase">Gráficos</a></li>
+				<li id="tab06" class="taboff"><a href="http://mysql.conclase.net/" title="MySQL con Clase">MySQL</a></li>
+				<li id="tab07" class="taboff"><a href="http://articulos.conclase.net/" title="Artículos con Clase">Artículos</a></li>
+				<li id="tab08" class="taboff"><a href="http://listas.conclase.net/" title="Listas de correo con Clase">Listas</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+		<div id="navigationBarra">
+			<ul id="tabsBarraC">
+          <li id="tabBarra01"><a href="http://www.c.conclase.net/edd/?cap=001#inicio" title="Cap ant">&lt;&lt;</a></li>
+          <li id="tabBarra02"><a href="http://www.c.conclase.net/edd/?cap=002c#inicio" title="Pág ant">&lt;</a></li>
+          <li id="tabBarra03"><a href="http://www.c.conclase.net/edd/?cap=002e#inicio" title="Pág sig">&gt;</a></li>
+          <li id="tabBarra04"><a href="http://www.c.conclase.net/edd/?cap=003#inicio" title="Cap sig">&gt;&gt;</a></li>
+			</ul>
+			<ul id="tabsBarraL">
+          <li id="tabBarra05"><a href="http://www.c.conclase.net/edd/#inicio" title="Curso">Curso</a></li>
+          <li id="tabBarra06"><a href="http://www.c.conclase.net/?id=listacorreo#inicio" title="Preguntas">Info</a></li>
+          <li id="tabBarra07"><a href="http://www.c.conclase.net/librerias/#inicio" title="Bibliotecas ANSI C">Bibliotecas</a></li>
+          <li id="tabBarra08"><a href="http://www.c.conclase.net/edd/?cap=tabla#inicio" title="Tabla de contenido">Tabla</a></li>
+          <li id="tabBarra09"><a href="http://www.c.conclase.net/edd/?ext=comentario&cap=002d#inicio" title="Insertar comentario">Comentario</a></li>
+			</ul>
+		</div>
+<div id="cuerpo">
+<!-- Parte izquierda -->
+<div id="izquierda">
+<!-- Menú -->
+<div id="menu">
+<ul> <!-- capítulos -->
+<li><a href="http://www.c.conclase.net/edd/?cap=000#inicio" title="Introducción"><span class="numero">&nbsp;</span>Introducción</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=001#inicio" title="Listas abiertas"><span class="numero">1 </span>Listas abiertas</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=002#inicio" title="Pilas"><span class="numero">2 </span>Pilas</a>
+<ul> <!-- Niv0 -->
+<li><a href="http://www.c.conclase.net/edd/?cap=002#2_1" title="Definición">Definición</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=002#2_2" title="Tipos de datos">Tipos de datos</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=002b#2_3" title="Operaciones básicas">Operaciones básicas</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=002b#2_4" title="Push, insertar">Push, insertar</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=002b#2_5" title="Pop, leer y eliminar">Pop, leer y eliminar</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=002c#2_6" title="Ejemplo en C">Ejemplo en C</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=002d#2_7" title="Ejemplo en C++">Ejemplo en C++</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=002e#2_8" title="Ejemplo C++ plantillas">Ejemplo C++ plantillas</a></li>
+</ul><!-- Niv1 -->
+</li>
+<li><a href="http://www.c.conclase.net/edd/?cap=003#inicio" title="Colas"><span class="numero">3 </span>Colas</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=004#inicio" title="Listas circulares"><span class="numero">4 </span>Listas circulares</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=005#inicio" title="Listas doblemente enlazadas"><span class="numero">5 </span>Listas doblemente enlazadas</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=006#inicio" title="Árboles"><span class="numero">6 </span>Árboles</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=007#inicio" title="Árboles binarios de búsqueda (ABB)"><span class="numero">7 </span>Árboles binarios de búsqueda (ABB)</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=008#inicio" title="Árboles AVL"><span class="numero">8 </span>Árboles AVL</a></li>
+<li><a href="http://www.c.conclase.net/edd/?cap=ejemplos#inicio" title="Descarga de ejemplos"><span class="numero">A </span>Descarga de ejemplos</a></li>
+</ul> <!-- capítulos -->
+</div>
+</div> <!-- izquierda -->
+<div id="derecha">
+<a name="inicio"></a>
+<div class="texto">
+<a name="2_7"></a><h2>2.7 Ejemplo de pila en C++ usando clases</h2>
+<div class="titulo_flecha"><a href="http://www.c.conclase.net/edd/?cap=002d#inicio">^</a></div>
+
+<p>Al igual que pasaba con las listas, usando clases el programa cambia bastante. Las clases para
+  pilas son versiones simplificadas de las mismas clases que usamos para listas.</p>
+<p>Para empezar, necesitaremos dos clases, una para nodo y otra para pila. Además 
+  la clase para nodo debe ser amiga de la clase pila, ya que ésta debe 
+  acceder a los miembros privados de nodo.</p>
+<pre class="ejemplo"><span class="cpp">class</span> nodo {
+   <span class="cpp">public</span>:
+    nodo(<span class="cpp">int</span> v, nodo *sig = <a href="http://c.conclase.net/librerias/?ansimac=NULL">NULL</a>) {
+       valor = v;
+       siguiente = sig;
+    }
+
+   <span class="cpp">private</span>:
+    <span class="cpp">int</span> valor;
+    nodo *siguiente;
+        
+   <span class="cpp">friend</span> <span class="cpp">class</span> pila;
+};
+ 
+<span class="cpp">typedef</span> nodo *pnodo;
+ 
+<span class="cpp">class</span> pila {
+   <span class="cpp">public</span>:
+    pila() : ultimo(<a href="http://c.conclase.net/librerias/?ansimac=NULL">NULL</a>) {}
+    ~pila();
+    
+    <span class="cpp">void</span> Push(<span class="cpp">int</span> v);
+    <span class="cpp">int</span> Pop();
+    
+   <span class="cpp">private</span>:
+    pnodo ultimo;
+};
+</pre>
+
+<p>Los algoritmos para Push y Pop son los mismos que expusimos para el ejemplo C, tan 
+  sólo cambia el modo de crear y destruir nodos.</p>
+<a name="2_7_1"></a></div>
+<div class="texto">
+<h3>Código del ejemplo completo</h3>
+
+<pre class="ejemplo"><span class="prp">#include</span> &lt;iostream&gt;
+<span class="cpp">using</span> <span class="cpp">namespace</span> std;
+ 
+<span class="cpp">class</span> nodo {
+   <span class="cpp">public</span>:
+    nodo(<span class="cpp">int</span> v, nodo *sig = <a href="http://c.conclase.net/librerias/?ansimac=NULL">NULL</a>) {
+       valor = v;
+       siguiente = sig;
+    }
+
+   <span class="cpp">private</span>:
+    <span class="cpp">int</span> valor;
+    nodo *siguiente;
+        
+   <span class="cpp">friend</span> <span class="cpp">class</span> pila;
+};
+ 
+<span class="cpp">typedef</span> nodo *pnodo;
+ 
+<span class="cpp">class</span> pila {
+   <span class="cpp">public</span>:
+    pila() : ultimo(<a href="http://c.conclase.net/librerias/?ansimac=NULL">NULL</a>) {}
+    ~pila();
+    
+    <span class="cpp">void</span> Push(<span class="cpp">int</span> v);
+    <span class="cpp">int</span> Pop();
+
+   <span class="cpp">private</span>:
+    pnodo ultimo;
+};
+ 
+pila::~pila() {
+   <span class="cpp">while</span>(ultimo) Pop();
+}
+
+<span class="cpp">void</span> pila::Push(<span class="cpp">int</span> v) {
+   pnodo nuevo;
+ 
+   /* Crear un nodo nuevo */
+   nuevo = <span class="cpp">new</span> nodo(v, ultimo);
+   /* Ahora, el comienzo de nuestra pila es en nuevo nodo */
+   ultimo = nuevo;
+}
+
+<span class="cpp">int</span> pila::Pop() {
+
+   pnodo nodo; /* variable auxiliar para manipular nodo */
+   <span class="cpp">int</span> v;      /* variable auxiliar para retorno */
+   
+   <span class="cpp">if</span>(!ultimo) <span class="cpp">return</span> 0; /* Si no hay nodos en la pila retornamos 0 */
+   /* Nodo apunta al primer elemento de la pila */
+   nodo = ultimo;
+   /* Asignamos a pila toda la pila menos el primer elemento */
+   ultimo = nodo-&gt;siguiente;
+   /* Guardamos el valor de retorno */
+   v = nodo-&gt;valor; 
+   /* Borrar el nodo */
+   <span class="cpp">delete</span> nodo;
+   <span class="cpp">return</span> v;
+}
+
+<span class="cpp">int</span> <i>main</i>() {
+   pila Pila;
+
+   Pila.Push(20);
+   <i>cout</i> &lt;&lt; "Push(20)" &lt;&lt; <i>endl</i>;
+   Pila.Push(10);
+   <i>cout</i> &lt;&lt; "Push(10)" &lt;&lt; <i>endl</i>;
+   <i>cout</i> &lt;&lt; "Pop() = " &lt;&lt; Pila.Pop() &lt;&lt; <i>endl</i>;
+   Pila.Push(40);
+   <i>cout</i> &lt;&lt; "Push(40)" &lt;&lt; <i>endl</i>;
+   Pila.Push(30);
+   <i>cout</i> &lt;&lt; "Push(30)" &lt;&lt; <i>endl</i>;
+   <i>cout</i> &lt;&lt; "Pop() = " &lt;&lt; Pila.Pop() &lt;&lt; <i>endl</i>;
+   <i>cout</i> &lt;&lt; "Pop() = " &lt;&lt; Pila.Pop() &lt;&lt; <i>endl</i>;
+   Pila.Push(90);
+   <i>cout</i> &lt;&lt; "Push(90)" &lt;&lt; <i>endl</i>;
+   <i>cout</i> &lt;&lt; "Pop() = " &lt;&lt; Pila.Pop() &lt;&lt; <i>endl</i>;
+   <i>cout</i> &lt;&lt; "Pop() = " &lt;&lt; Pila.Pop() &lt;&lt; <i>endl</i>;
+
+   <span class="cpp">return</span> 0;
+}
+</pre>
+
+<a name="2_7_2"></a></div>
+<div class="texto">
+<h3>Fichero con el código fuente.</h3>
+
+<p>Ir a página de descargas: <a href="http://www.c.conclase.net/edd/index.php?cap=ejemplos#inicio"><img src="./Estructuras de datos - Pilas_files/Download.gif" align="absmiddle" border="0" alt="Descargar programa" width="25" height="25"></a></p>
+</div>
+</div>
+</div>
+<div id="pie">
+<p id="copyright">© Julio de 2001, Salvador Pozo Coronado, <a href="mailto:salvador@conclase.net">salvador@conclase.net</a></p>
+</div>
+
+
+</body></html>
